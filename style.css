@@ -1,0 +1,62 @@
+body {
+    position: relative;
+    width: 1600px;
+    height: 960px;
+  overflow-x: hidden;
+  background: RGB(181, 213, 202);
+}
+
+.restangle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 575px;
+    height: 84px;
+    left: 512px;
+    top: 370px;
+    border-radius: 15px;
+    font-size: 23px;  
+    }
+
+.text {
+    position: absolute;
+    width: 304px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.button {
+    position: absolute;
+    width: 172px;
+    height: 40px;
+    text-align: center;
+    background: lightyellow;
+    }
+
+.textB {
+    position: absolute;
+    width: 304px;
+    height: 24px;
+    }
+
+.container {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: normal;
+    border: solid 1px #000;
+    height: 100;
+    text-align: center;
+}
+
+.flex-item {
+    text-align:center;
+    font-size: 20px;
+      flex-grow: 1;
+      margin: 5px;
+      background: lightblue;
+}
